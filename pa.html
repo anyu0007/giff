@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angels Engine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icono.ico">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, p, td, th {
+            color: white;
+        }
+        header {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .titulo-encima {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(155, 13, 13);
+            font-size: 7em;
+            background-color: rgba(0, 0, 0, 0);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        nav ul {
+            text-align: justify;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        footer {
+            background-color: #660000;
+            padding: 20px;
+            text-align: center;
+        }
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        table {
+            background-color: #440909;
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .imagenes img {
+            width: 100%;
+            max-width: 190px;
+            height: auto;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        .videos-container video {
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+            margin: 5px;
+        }
+        .audios-container audio {
+            width: 100%;
+            max-width: 300px;
+            margin: 5px;
+        }
+        /* Media Queries para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .titulo-encima {
+                font-size: 4em;
+                padding: 5px 10px;
+            }
+            header {
+                height: 200px;
+            }
+            form, .videos-container video, .audios-container audio {
+                max-width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            .titulo-encima {
+                font-size: 3em;
+            }
+            header {
+                height: 150px;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+                text-align: center;
+            }
+        }
+    </style>
+  </head>
+<body>
+    <header>
+        <img src="no/8.png" alt="Imagen de cabecera" width="590px" height="390px">
+        <h1 class="titulo-encima">Angels Engine</h1>
+    </header>
+<br><br>
+    <section id="angels-engine">
+        <h1>ANGEL ENGINE</h1>
+        <p>> "El Motor del Ángel" es una serie de terror analógico que explora un futuro donde la humanidad lucha por sobrevivir y explota a un ángel para su propio beneficio. Esta serie ha generado gran controversia, ya que, aunque la historia fue creada por una persona, el concepto artístico proviene de una inteligencia artificial. Esto ha provocado una fuerte división en el mundo del arte: mientras algunos artistas apoyan el uso de la IA en la creación artística, otros lo consideran una amenaza para el arte tradicional.</p>
+<br><br>
+        <h2>Trama</h2>
+        <p>
+            ---            
+            En un futuro donde la humanidad está al borde del colapso, los científicos encuentran a Uriel, un ser celestial de origen desconocido. Desesperados por una fuente de energía infinita, lo someten a una maquinaria colosal conocida como *El Motor del Ángel*. Atado, mutilado y reducido a una fuente de poder, Uriel sigue vivo, su cuerpo regenerándose constantemente mientras las máquinas lo despojan de su esencia una y otra vez.  
+            
+            El horror analógico de la serie se manifiesta en grabaciones deterioradas, documentos censurados y transmisiones interferidas que revelan poco a poco la pesadilla que desataron. En los primeros registros, Uriel es un ser imponente y sereno, pero conforme la serie avanza, su imagen se distorsiona de formas imposibles. Su rostro se vuelve irreconocible, su voz se mezcla con señales de radio y su dolor se transforma en lamentos sintéticos que corrompen las grabaciones.  
+            
+            Los investigadores empiezan a notar que *El Motor* no solo extrae energía… sino algo más. Documentos internos muestran a empleados sufriendo episodios de paranoia extrema, viendo sombras en las pantallas incluso cuando las cámaras están apagadas. Voces distorsionadas aparecen en transmisiones cerradas, repitiendo palabras que nadie entiende. Luego, uno a uno, los ingenieros desaparecen, dejando solo archivos corruptos y grabaciones donde sus rostros se funden con la imagen de Uriel.  
+            
+            Con cada episodio, las fallas en los archivos se intensifican. La música de fondo se distorsiona, los rostros de los protagonistas aparecen desenfocados aunque la cámara esté fija, y el espectador empieza a notar que algo lo observa a través de la pantalla. Al final, cuando el *Motor* alcanza su punto máximo, la señal colapsa y lo único que queda es un último mensaje, escrito en texto rojo parpadeante:  
+            
+            *"AHORA TÚ LO ALIMENTAS."*  
+            ---
+        </p>
+<br><br>
+        <h1 style="padding: 10px 20px;">EVOLUCIÓN:</h1>
+        <p>A medida que avanzan los capítulos, la imagen de Uriel se va "distorsionando" progresivamente, mostrando cambios físicos notables. Se cree que esto es una consecuencia secundaria del motor de ____, lo que altera su apariencia de manera gradual. A continuación, presentamos la evolución de su transformación.</p>
+        <div class="imagenes" style="padding: 10px 20px;">
+            <img src="https://i.pinimg.com/474x/f8/3b/24/f83b249609df99dec09c12458127259d.jpg" alt="causa">
+            <img src="img_p02/2.jpeg" alt="Imagen 2">
+            <img src="img_p02/Screenshot (424).png" alt="Imagen 3">
+            <img src="https://i.pinimg.com/474x/5e/8d/89/5e8d894c1bf902730e985bf903a14a4d.jpg" alt="Imagen 4">
+            <img src="https://i.pinimg.com/474x/72/f9/3a/72f93a77b68220c1caa8ab778aecdc4b.jpg" alt="Imagen 1">
+            <img src="https://i.pinimg.com/474x/97/5a/67/975a67977b132bac8c0706403bcf6f49.jpg" alt="Imagen 3">
+            <img src="img_p02/semi.jpeg" alt="Imagen 4">
+            <img src="img_p02/fh.jpeg" alt="Imagen 1">
+        </div>
+    <br><br>
+        <h3>Tabla de Episodios</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>TITULO DEL CAPITULO</th>
+                    <th>Fecha de Publicación</th>
+                    <th>Resumen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>¿como captura un angel?</td>
+                    <td>01/01/2025</td>
+                    <td>El primer capítulo donde se introduce el conflicto principal, la lucha de los humanos contra sus propias consecuencias.</td>
+                </tr>
+                <tr>
+                    <td>¿COMO ENCONTRAR EL MOTOR ANGEL?</td>
+                    <td>08/01/2025</td>
+                    <td>tutorial de salvacion.</td>
+                </tr>
+                <tr>
+                    <td>EL VIENE</td>
+                    <td>15/01/2025</td>
+                    <td>Los héroes descubren un antiguo artefacto que puede cambiar el curso de la guerra, pero deberán enfrentar traiciones internas.</td>
+                </tr>
+                <tr>
+                    <td>LA TRANSMICION</td>
+                    <td>22/01/2025</td>
+                    <td>Lucius Blackstone revela su verdadera naturaleza como ángel caído y lucha con su lealtad hacia los humanos.</td>
+                </tr>
+                <tr>
+                    <td>ESCUCHENME</td>
+                    <td>29/01/2025</td>
+                    <td>El equipo realiza una misión suicida para destruir la fuente de poder de los ángeles caídos, enfrentándose a enormes desafíos.</td>
+                </tr>
+                <tr>
+                    <td>REGISTRATE</td>
+                    <td>01/01/2025</td>
+                    <td>El primer capítulo donde se introduce el conflicto principal, la lucha de los humanos contra los ángeles caídos.</td>
+                </tr>
+                <tr>
+                    <td>¿COMO SOBREVIVIR EN LA TIERRA SANTA ?</td>
+                    <td>08/01/2025</td>
+                    <td>El equipo de resistencia se forma y comienza a planear su primer ataque contra las fuerzas oscuras.</td>
+                </tr>
+                <tr>
+                    <td>BOTAS </td>
+                    <td>15/01/2025</td>
+                    <td>Los héroes descubren un antiguo artefacto que puede cambiar el curso de la guerra, pero deberán enfrentar traiciones internas.</td>
+                </tr>
+                <tr>
+                    <td>EL FUTURO ES AHORA</td>
+                    <td>22/01/2025</td>
+                    <td>Lucius Blackstone revela su verdadera naturaleza como ángel caído y lucha con su lealtad hacia los humanos.</td>
+                </tr>
+                <tr>
+                    <td>PADRE DEL ANGEL</td>
+                    <td>29/01/2025</td>
+                    <td>El equipo realiza una misión suicida para destruir la fuente de poder de los ángeles caídos, enfrentándose a enormes desafíos.</td>
+                </tr>
+                <tr>
+                    <td>LA ENTREVISTA</td>
+                    <td>29/01/2025</td>
+                    <td>El equipo realiza una misión suicida para destruir la fuente de poder de los ángeles caídos, enfrentándose a enormes desafíos.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>RECOPILACION DE CAPITULOS</h1>
+        <div class="videos-container">
+            <video controls style="border-radius: 10px; width: 90%; max-width: 297px;">
+                <source src="WhatsApp Video 2025-03-26 at 3.15.22 AM.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <video controls style="border-radius: 10px; width: 90%; max-width: 300px;">
+                <source src="WhatsApp Video 2025-03-26 at 3.19.48 AM.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <video controls style="border-radius: 10px; width: 90%; max-width: 300px;">
+                <source src="videoplayback.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <video controls style="border-radius: 10px; width: 90%; max-width: 300px;">
+                <source src="WhatsApp Video 2025-03-26 at 3.19.48 AM.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <video controls style="border-radius: 10px; width: 90%; max-width: 300px;">
+                <source src="WhatsApp Video 2025-03-26 at 3.15.22 AM.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <video controls style="border-radius: 10px; width: 90%; max-width: 300px;">
+                <source src="videoplayback.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+        </div>
+    </section>
+
+    <!-- Sección de Audio -->
+    <section>
+        <h2>VOZ DE URIEL</h2>
+        <div class="audios-container">
+            <audio controls>
+                <source src="videoplayback (online-audio-converter.com).mp3" type="audio/mp3">
+                Tu navegador no soporta el formato de audio.
+            </audio>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 <span>Angels Engine</span> | Todos los derechos reservados</p>
+        <div>
+            <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
